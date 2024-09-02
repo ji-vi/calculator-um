@@ -308,6 +308,10 @@ body.dark h1, body.dark .support a {
     #btn-eql{
       width: 30vw;
     }
+    
+    .buttons{
+      font-size: 2vh;
+    }
 }
 
 @media screen and (min-width: 390px) {
