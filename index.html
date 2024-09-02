@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="" href="https://fontawesome.com/">
+    <link rel="stylesheet" href="styles.css">
+
+    
+</head>
+<body class="p-3 mb-2 ">
+    
+    <div class="container">
+        <div class="calculator">
+                
+                <div class="row">
+                    <div class="">
+                        <input type="text" name="display" id="screen" style="border: none;" disabled>
+                    </div>
+
+                    <div class="">
+                        <input type="checkbox" class="checkbox" id="checkbox">
+                        <label for="checkbox" class="checkbox-label">
+                            <img src="images/sun.png" class="light-mode" alt="">
+                            <img src="images/moon.png" class="dark-mode" alt="">
+                            <span class="ball"></span>
+                        </label>
+                    </div>
+                    
+                </div>
+                <div class="row on-off" name="on-off">
+                    <div class="col-3">
+                        <button  class="onoff-btn" id="on-btn"  onclick="s_on()">ON</button>
+                    </div>
+                    <div class="col-3">
+
+                    </div>
+                    <div class="col-3">
+
+                    </div>
+
+                    <div class="col-3">
+                        <button  class="onoff-btn" id="off-btn"  onclick="s_off()">OFF</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <button class="buttons operator" name="ac-btn">AC</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="buttons operator" name="del-btn">DEL</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="buttons operator" name="abs-btn">Abs</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="buttons operator" name="negate-btn">+/-</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <button class="buttons operator" name="power-btn">x²</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="buttons operator" name="btn-sqrt">√</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="buttons operator" name="factorial-btn">x!</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="buttons operator" name="percent-btn">%</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <button class="buttons digit" name="btn-7">7</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="buttons digit" name="btn-8">8</button>
+                    </div>
+                   <div class="col-3">
+                        <button class="buttons digit" name="btn-9">9</button>
+                   </div>
+                    <div class="col-3">
+                        <button class="buttons operator" name="btn-divide">/</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <button class="buttons digit" name="btn-4">4</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="buttons digit" name="btn-5">5</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="buttons digit" name="btn-6">6</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="buttons operator" name="btn-multiply">*</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <button class="buttons digit" name="btn-1">1</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="buttons digit" name="btn-2">2</button>
+                    </div>
+                   <div class="col-3">
+                    <button class="buttons digit" name="btn-3">3</button>
+                   </div>
+                    <div class="col-3">
+                        <button class="buttons operator" name="btn-subtract">-</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <button class="buttons digit" name="btn-dec">.</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="buttons digit" name="btn-0">0</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="buttons digit" name="btn-00">00</button>
+                    </div>
+                   <div class="col-3">
+                        <button class="buttons operator" name="btn-add">+</button>
+                   </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <button class="buttons" name="btn-equal" id="btn-eql" onclick="equal()">=</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="buttons operator" name="btn-open-brac">(</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="buttons operator" name="btn-close-brac">)</button>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
