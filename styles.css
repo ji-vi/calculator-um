@@ -260,7 +260,7 @@ body.dark h1, body.dark .support a {
   }
 }
 
-@media screen and (min-width:370px) {
+@media screen and (min-width:360px) {
     .checkbox-label {
         background-color: #FFF8E8;
         width: 17vw;
@@ -271,7 +271,7 @@ body.dark h1, body.dark .support a {
 
       .checkbox-label .ball {
         background-color: #3C3D37;
-        width: 4vw;
+        width: 5vw;
         height: 4vh;
         position: absolute;
         left: 3vw;
@@ -285,7 +285,7 @@ body.dark h1, body.dark .support a {
 
       .light-mode {
         height: 3vh;
-        width: 6vw;
+        width: 5vw;
         padding-right:1vw ;
     }
     
