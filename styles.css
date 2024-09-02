@@ -156,7 +156,8 @@ body{
 } 
 
 #btn-eql:disabled{
-    background-color: #758694;  
+    background-color: #758694; 
+    color: black; 
 } 
 
 #screen{
@@ -220,6 +221,7 @@ body.dark h1, body.dark .support a {
 
 .dark #btn-eql:disabled{
     background-color: #758694;  
+    
 } 
 
 /* MEDIA QUERIES */
@@ -227,7 +229,7 @@ body.dark h1, body.dark .support a {
 @media screen and (min-width:320px) {
   .checkbox-label {
       background-color: #FFF8E8;
-      width: 18vw;
+      width: 19vw;
       height: 5vh;
       top: 10vh;
       right: 10vw;
@@ -235,8 +237,8 @@ body.dark h1, body.dark .support a {
 
     .checkbox-label .ball {
       background-color: #3C3D37;
-      width: 5vw;
-      height: 3vh;
+      width: 7vw;
+      height: 4vh;
       position: absolute;
       left: 3vw;
       border-radius: 50%;
@@ -255,15 +257,23 @@ body.dark h1, body.dark .support a {
   
   .dark-mode {
       height: 3vh;
-      width: 5vw;
+      width: 6vw;
       padding-left:3vw ;
+  }
+
+  .operator{
+    font-size: 2vh;
+  }
+
+  #btn-eql{
+    width: 30vw;
   }
 }
 
 @media screen and (min-width:360px) {
     .checkbox-label {
         background-color: #FFF8E8;
-        width: 17vw;
+        width: 18vw;
         height: 5vh;
         top: 10vh;
         right: 10vw;
@@ -293,6 +303,10 @@ body.dark h1, body.dark .support a {
         height: 3vh;
         width: 5vw;
         padding-left:3vw ;
+    }
+
+    #btn-eql{
+      width: 30vw;
     }
 }
 
@@ -328,6 +342,10 @@ body.dark h1, body.dark .support a {
         height: 3vh;
         width: 4vw;
         padding-left:1vw ;
+    }
+
+    #btn-eql{
+      width: 30vw;
     }
 }
 
@@ -366,6 +384,10 @@ body.dark h1, body.dark .support a {
         width: 3vw;
         padding-left:1vw ;
     }
+
+    #btn-eql{
+      width: 30vw;
+    }
 }
 
 @media screen and (min-width:490px) and (max-width: 600px) {
@@ -401,6 +423,10 @@ body.dark h1, body.dark .support a {
         height: 3vh;
         width: 3vw;
         padding-left:1vw ;
+    }
+
+    #btn-eql{
+      width: 30vw;
     }
 }
 
@@ -439,6 +465,10 @@ body.dark h1, body.dark .support a {
         width: 3vw;
         padding-left:1vw ;
     }
+
+    #btn-eql{
+      width: 30vw;
+    }
 }
 
 
@@ -474,6 +504,10 @@ body.dark h1, body.dark .support a {
     .dark-mode {
         height: 3vh;
         width: 3vw;
+    }
+
+    #btn-eql{
+      width: 30vw;
     }
 }
 
@@ -511,6 +545,10 @@ body.dark h1, body.dark .support a {
         width: 3vw;
         padding-left:1vw ;
     }
+
+    #btn-eql{
+      width: 30vw;
+    }
 }
 
 @media screen and (min-width:1024px) and (max-width: 1440px) {
@@ -547,6 +585,10 @@ body.dark h1, body.dark .support a {
         width: 3vw;
         padding-left:1vw ;
     }
+
+    #btn-eql{
+      width: 30vw;
+    }
 }
 
 @media screen and (min-width:1440px) {
@@ -582,12 +624,20 @@ body.dark h1, body.dark .support a {
         width: 5vw;
         padding-right:2vw ;
     }
+
+    #btn-eql{
+      width: 25vw;
+    }
 }
 
 @media screen and (min-width:2200px) {
 
       .checkbox:checked + .checkbox-label .ball {
         transform: translateX(44px);
+      }
+
+      #btn-eql{
+        width: 25vw;
       }
 
 }
@@ -598,6 +648,9 @@ body.dark h1, body.dark .support a {
       transform: translateX(46px);
     }
 
+    #btn-eql{
+      width: 25vw;
+    }
 }
 
 @media screen and (min-width:2420px) {
@@ -606,6 +659,9 @@ body.dark h1, body.dark .support a {
       transform: translateX(48px);
     }
 
+    #btn-eql{
+      width: 25vw;
+    }
 }
 
 @media screen and (min-width:2500px) {
@@ -616,6 +672,10 @@ body.dark h1, body.dark .support a {
 
     .operator{
         font-size: 2vh;
+    }
+
+    #btn-eql{
+      width: 20vw;
     }
 
 }
